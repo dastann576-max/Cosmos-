@@ -419,7 +419,7 @@
 (function () {
   const GROQ_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct";
   const GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions";
-const API_KEY = "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";
+const API_KEY = "import.meta.env.VITE_GROQ_API_KEY;";
   const MAX_IMAGE_DIM = 1024;
   const TEXT_EXTENSIONS = ["txt", "md", "csv", "json", "log"];
   const LS = { conv: "cosmos:conversations", profile: "cosmos:profile" };
